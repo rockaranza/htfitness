@@ -275,6 +275,7 @@ html {
 }
 
 .serviciosMain h2 {
+    padding-top: 5rem;
     font-size: 2rem;
     color: var(--color-texto);
     font-family: var(--fuente-titulo);
