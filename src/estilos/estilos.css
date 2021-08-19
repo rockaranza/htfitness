@@ -395,7 +395,7 @@ html {
 
 /* ----- CONTACTO ----- */
 .grillaContacto {
-    padding-top: 8rem;
+    padding-top: 9rem;
     display: grid;
     grid-template-columns: [x0] 2fr [x1] 8fr [x2] 2fr [x3];
     grid-template-rows: [y0] 10vh [y1] 65vh [y2] 10vh [y3];
