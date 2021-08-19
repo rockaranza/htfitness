@@ -80,6 +80,10 @@ html {
     visibility: hidden;
 }
 
+.activo {
+    font-weight: bold;
+}
+
 /* ----- FIN HEADER ----- */
 
 /* ----- INDEX MAIN ----- */
