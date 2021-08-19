@@ -27,6 +27,7 @@ html {
 .contenedorHeader{
     width: 100%;
     position: fixed;
+    z-index: 999999;
     font-size: 2rem;
     background-color: var(--color-background);
 }
