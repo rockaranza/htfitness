@@ -279,6 +279,7 @@ html {
     font-size: 2rem;
     color: var(--color-texto);
     font-family: var(--fuente-titulo);
+    font-weight: bold;
 }
 
 .tarjetaServicios {
@@ -730,6 +731,9 @@ input {
         align-items: center;
     }
 
+    .focus:hover {
+        border-bottom: 2px solid white;
+    }
     /* FIN HEADER*/
 
     /* INDEX MAIN */
