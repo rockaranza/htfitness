@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entrenamiento al alcance de todos. Siempre podrás estar en forma.">
+    <meta name="keywords" content="entrenamiento, fitness, clases, tonificar, cardiovascular, entrenador, contacto">
+    <link rel="stylesheet" href="./src/estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Recurso de fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Spartan:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- Recurso de animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Ponte en Contacto</title>
+</head>
+<body>
+    <div class="contenedorGeneral">
+        <header class="contenedorHeader">
+            <div class="contenedorHeader__header">
+                <h1>HT Fit</h1>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html" class="menu__link">Inicio</a></li>
+                        <li><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                        <li><a href="servicios.html" class="menu__link">Servicios</a></li>
+                        <li><a href="contacto.html" class="menu__link">Contacto</a></li>     
+                        <li>
+                            <a href="login.html" class="contenedorIconoMenu">
+                                <p class="fas fa-sign-in-alt iconoLogin"></p> <p class="btnLogin">Login</p>      
+                            </a>
+                        </li>
+                    </ul>
+                </nav>  
+            </div>
+    
+        </header>
+        
+        <main class="grillaContacto">
+            <div class="espacioAuxiliar"></div> <!-- CELDA 1-->
+            <div class="grillaContacto__titulo"> <!-- CELDA 2-->
+                <h2>Contacto</h2>
+            </div>
+            <div class="espacioAuxiliar"></div> <!-- CELDA 3-->
+            <div class="espacioAuxiliar"></div> <!-- CELDA 4-->
+            <div class="formulario"> <!-- CELDA 5-->
+                <form action="" class="animate__animated animate__fadeIn formulario__form"> <!--aplicar animación a todo el formulario-->
+                    <label class="contenedorDatos" for="nombre">Nombre: </label>
+                    <input type="text" name="fname" id="nombre" class="inputTexto">
+                    <label class="contenedorDatos" for="apellido">Apellido: </label>
+                    <input type="text" name="lname" id="apellido" class="inputTexto">
+                    <label class="contenedorDatos" for="correo">Correo: </label>
+                    <input type="mail" name="email" id="correo" class="inputTexto">
+                    <label class="contenedorDatos">
+                        Género: 
+                        <span><input type="radio" name="genero" value="hombre">Hombre</span>
+                        <span><input type="radio" name="genero" value="mujer">Mujer</span>
+                    </label>
+                    <label class="contenedorDatos">
+                        Quiero lograr:
+                        <select name="objetivos">
+                            <option value="perder">Perder peso</option>
+                            <option value="musculacion">Ganar masa muscular</option>
+                            <option value="performance">Mejor rendimiento</option>
+                            <option value="mejorar">Mejorar estado físico</option>
+                            <option value="salud">Recuperación terapéutica</option>
+                        </select>
+                    </label>
+                    <label class="contenedorDatos" for="comentario">
+                        Cuentanos de ti...
+                        <textarea name="comentarios" id="comentario" cols="35" rows="5"></textarea>
+                    </label>
+                    <label class="contenedorDatos">
+                        <input type="checkbox" name="acepto">
+                        Acepto <a href="404.html">terminos y condiciones</a>
+                    </label>
+                    <div class="botones">
+                        <input type="submit" value="Enviar" class="botonFormulario botonEnviar">
+                        <input type="reset" value="Borrar datos" class="botonFormulario botonBorrar">
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="espacioAuxiliar"></div> <!-- CELDA 6-->
+            <div class="espacioAuxiliar"></div> <!-- CELDA 7-->
+            <div class="espacioAuxiliar"></div> <!-- CELDA 8-->
+            <div class="espacioAuxiliar"></div> <!-- CELDA 9-->
+        </main>
+    
+        <footer class="contenedorFooter">
+            <p>HT Fit 2021</p>
+            <div>
+                <span><a href="https://www.facebook.com/" class="contedenorFooter__enlace"><i class="fab fa-facebook-square"></i></a></span>
+                <span><a href="https://www.instagram.com/" class="contedenorFooter__enlace"><i class="fab fa-instagram-square"></i></a></span>
+                <span><a href="https://www.youtube.com/" class="contedenorFooter__enlace"><i class="fab fa-youtube-square"></i></a></span>
+            </div>
+        </footer>
+    </div>
+    <!-- Recurso de iconos -->
+    <script src="https://kit.fontawesome.com/ae6add6e95.js" crossorigin="anonymous"></script>
+</body>
+</html>
