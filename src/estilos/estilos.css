@@ -86,7 +86,7 @@ html {
 .contenedorMain {
     width: 100%;
     height: 95vh;
-    background-image: url("http://imgfz.com/i/rAtciak.png");
+    background-image: url("../img/backgroundMobil.png");
     background-position: center;
 }
 
@@ -486,7 +486,7 @@ input {
     height: 95vh;
     justify-content: center;
     align-items: center;
-    background-image: url("http://imgfz.com/i/R9WQvlm.png");
+    background-image: url("../img/backgroundArcoiris.png");
     background-size: cover;
 }
  /* cuadro hermano de contenedorLogin para generar el efecto de transparencia */
@@ -738,7 +738,7 @@ input {
 
     /* INDEX MAIN */
     .contenedorMain {
-        background-image: url("http://imgfz.com/i/fNpKeZq.png");
+        background-image: url("../img/backgroundNormal.png");
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -843,7 +843,7 @@ input {
     .serviciosMain {
         width: 100%;
         height: 95vh;
-        background-image: url("http://imgfz.com/i/R9WQvlm.png");
+        background-image: url("../img/backgroundArcoiris.png");
         background-size: cover;
     }
 
